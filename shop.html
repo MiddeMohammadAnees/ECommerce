@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    
+    
+
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+
+        #featured>div.row.mx-auto.container>nav>ul>li.page-item.active>a{
+            background-color: black;
+        }
+
+        #featured>div.row.mx-auto.container>nav>ul>li:nth-child(n):hover>a{
+            background-color: coral;
+            color: #fff;
+        }
+        .pagination a{
+            color: black;
+        }
+    </style>
+</head> 
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 fixed-top">
+
+
+        <div class="container">
+          <img src="logo1.png" alt="Image" width="70" height="70">  
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span><img class="bars" src="bars (1).png" alt=""></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">      <!-- makes margin left side -->
+             
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active " href="#">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">Contacts</a>
+              
+              
+              
+                <!-- Inside the navbar -->
+              <li>
+              
+            
+                <div class="search-box">
+                  <button class="btn-search"><i class="fas fa-search"></i></button>
+                  <input type="text" class="input-search" placeholder="Type to Search...">
+                </div>
+                
+                <!-- <li class="nav-icon">
+                <i class="bi bi-bag-heart-fill"></i>
+                </li> -->
+                
+
+              </li>
+              
+
+              
+          </div>
+        </div>
+      </nav>
+      <section id="featured" class="my-5 py-4">
+        <div class="container mt-5 py-5 mt-5">
+          <h2 class="font-weight-bold">
+            Our Featured</h2>
+         
+          <hr>
+          <p>
+            Here you can check out our new products with fair price on our website.</p>
+          
+        </div>
+        <div class="row mx-auto container">
+          <div onClick="window.location.href='singlep.html';" class="product text-center col-lg-3 col-md-5 col-12">
+            <img class="img-fluid mb-3" src="shirts0.png" alt="" width="55%"  >
+            <div class="star">
+              <img src="stars2.png" alt="" height="20px" width="20px">
+              <img src="stars2.png" alt="" height="20px" width="20px">
+              <img src="stars2.png" alt="" height="20px" width="20px">
+              <img src="stars2.png" alt="" height="20px" width="20px">
+              <img src="stars2.png" alt="" height="20px" width="20px">
+             <!-- <i class="bi bi-star"></i> -->
+              
+            </div>
+            <h5 class="p-name">T-Shirts</h5>
+            <h4 class="p-price">$50.00</h4>
+            <button class="buy-btn">Buy Now</button>
+  
+          </div>
+          <div onClick="window.location.href='secondp.html';"  class="product text-center col-lg-3 col-md-4 col-10">
+            <img class="img-fluid mb-3" src="shop2.png" alt="" width="58%" >
+            <div class="star">
+              <img src="stars2.png" alt="" height="20px" width="20px">
+              <img src="stars2.png" alt="" height="20px" width="20px">
+              <img src="stars2.png" alt="" height="20px" width="20px">
+              <img src="stars2.png" alt="" height="20px" width="20px">
+              <img src="stars2.png" alt="" height="20px" width="20px">
+              
+            </div>
+            <h5 class="p-name">Formal Shoes</h5>
+            <h4 class="p-price">$110.00</h4>
+            <button class="buy-btn">Buy Now</button>
+  
+          </div>
+          <div class="product text-center col-lg-3 col-md-3 col-10">
+            <img class="img-fluid mb-3" src="shop4.png" alt=""  width="76%">
+            <div class="star">
+              <img src="stars2.png" alt="" height="20px" width="20px">
+              <img src="stars2.png" alt="" height="20px" width="20px">
+              <img src="stars2.png" alt="" height="20px" width="20px">
+              <img src="stars2.png" alt="" height="20px" width="20px">
+              <img src="stars2.png" alt="" height="20px" width="20px">
+              
+            </div>
+            <h5 class="p-name">Bags</h5>
+            <h4 class="p-price">$150.00</h4>
+            <button class="buy-btn">Buy Now</button>
+  
+          </div>
+          <div class="product text-center col-lg-3 col-md-4 col-10">
+            <img class="img-fluid mb-3" src="shoes1.png" alt="" width="80%" >
+            <div class="star">
+              <img src="stars2.png" alt="" height="20px" width="20px">
+              <img src="stars2.png" alt="" height="20px" width="20px">
+              <img src="stars2.png" alt="" height="20px" width="20px">
+              <img src="stars2.png" alt="" height="20px" width="20px">
+              <img src="stars2.png" alt="" height="20px" width="20px">
+              
+            </div>
+            <h5 class="p-name">Professional Shoes</h5>
+            <h4 class="p-price">$130.00</h4>
+            <button class="buy-btn">Buy Now</button>
+  
+          </div>
+          <div class="product text-center col-lg-3 col-md-5 col-12">
+            <img class="img-fluid mb-3" src="shop8.png" alt="" width="90%" >
+            <div class="star">
+              <img src="stars2.png" alt="" height="20px" width="20px">
+              <img src="stars2.png" alt="" height="20px" width="20px">
+              <img src="stars2.png" alt="" height="20px" width="20px">
+              <img src="stars2.png" alt="" height="20px" width="20px">
+              <img src="stars2.png" alt="" height="20px" width="20px">
+             <!-- <i class="bi bi-star"></i> -->
+              
+            </div>
+            <h5 class="p-name">Headwear</h5>
+            <h4 class="p-price">$60.00</h4>
+            <button class="buy-btn">Buy Now</button>
+  
+          </div>
+          <div class="product text-center col-lg-3 col-md-4 col-10">
+            <img class="img-fluid mb-3" src="shop6.png" alt="" width="90%" >
+            <div class="star">
+              <img src="stars2.png" alt="" height="20px" width="20px">
+              <img src="stars2.png" alt="" height="20px" width="20px">
+              <img src="stars2.png" alt="" height="20px" width="20px">
+              <img src="stars2.png" alt="" height="20px" width="20px">
+              <img src="stars2.png" alt="" height="20px" width="20px">
+              
+            </div>
+            <h5 class="p-name">Coat</h5>
+            <h4 class="p-price">$170.00</h4>
+            <button class="buy-btn">Buy Now</button>
+  
+          </div>
+          <div class="product text-center col-lg-3 col-md-3 col-10">
+            <img class="img-fluid mb-3" src="shoes5.png" alt=""  width="90%">
+            <div class="star">
+              <img src="stars2.png" alt="" height="20px" width="20px">
+              <img src="stars2.png" alt="" height="20px" width="20px">
+              <img src="stars2.png" alt="" height="20px" width="20px">
+              <img src="stars2.png" alt="" height="20px" width="20px">
+              <img src="stars2.png" alt="" height="20px" width="20px">
+              
+            </div>
+            <h5 class="p-name">Shoes</h5>
+            <h4 class="p-price">$150.00</h4>
+            <button class="buy-btn">Buy Now</button>
+  
+          </div>
+          <div class="product text-center col-lg-3 col-md-4 col-10">
+            <img class="img-fluid mb-3" src="shop7.png" alt="" width="87%" >
+            <div class="star">
+              <img src="stars2.png" alt="" height="20px" width="20px">
+              <img src="stars2.png" alt="" height="20px" width="20px">
+              <img src="stars2.png" alt="" height="20px" width="20px">
+              <img src="stars2.png" alt="" height="20px" width="20px">
+              <img src="stars2.png" alt="" height="20px" width="20px">
+              
+            </div>
+            <h5 class="p-name">Blazers</h5>
+            <h4 class="p-price">$190.00</h4>
+            <button class="buy-btn">Buy Now</button>
+  
+          </div>
+          <div class="product text-center col-lg-3 col-md-5 col-12">
+            <img class="img-fluid mb-3" src="shop9.png" alt="" width="98%" >
+            <div class="star">
+              <img src="stars2.png" alt="" height="20px" width="20px">
+              <img src="stars2.png" alt="" height="20px" width="20px">
+              <img src="stars2.png" alt="" height="20px" width="20px">
+              <img src="stars2.png" alt="" height="20px" width="20px">
+              <img src="stars2.png" alt="" height="20px" width="20px">
+             <!-- <i class="bi bi-star"></i> -->
+              
+            </div>
+            <h5 class="p-name">Bags</h5>
+            <h4 class="p-price">$110.00</h4>
+            <button class="buy-btn">Buy Now</button>
+  
+          </div>
+          <div class="product text-center col-lg-3 col-md-4 col-10">
+            <img class="img-fluid mb-3" src="watches5.png" alt="" width="100%" >
+            <div class="star">
+              <img src="stars2.png" alt="" height="20px" width="20px">
+              <img src="stars2.png" alt="" height="20px" width="20px">
+              <img src="stars2.png" alt="" height="20px" width="20px">
+              <img src="stars2.png" alt="" height="20px" width="20px">
+              <img src="stars2.png" alt="" height="20px" width="20px">
+              
+            </div>
+            <h5 class="p-name">Watches</h5>
+            <h4 class="p-price">$90.00</h4>
+            <button class="buy-btn">Buy Now</button>
+  
+          </div>
+          <div class="product text-center col-lg-3 col-md-3 col-10">
+            <img class="img-fluid mb-3" src="caps2.png" alt=""  width="90%">
+            <div class="star">
+              <img src="stars2.png" alt="" height="20px" width="20px">
+              <img src="stars2.png" alt="" height="20px" width="20px">
+              <img src="stars2.png" alt="" height="20px" width="20px">
+              <img src="stars2.png" alt="" height="20px" width="20px">
+              <img src="stars2.png" alt="" height="20px" width="20px">
+              
+            </div>
+            <h5 class="p-name">Hats</h5>
+            <h4 class="p-price">$80.00</h4>
+            <button class="buy-btn">Buy Now</button>
+  
+          </div>
+          <div class="product text-center col-lg-3 col-md-4 col-10">
+            <img class="img-fluid mb-3" src="shoes5.png" alt="" width="69%" >
+            <div class="star">
+              <img src="stars2.png" alt="" height="20px" width="20px">
+              <img src="stars2.png" alt="" height="20px" width="20px">
+              <img src="stars2.png" alt="" height="20px" width="20px">
+              <img src="stars2.png" alt="" height="20px" width="20px">
+              <img src="stars2.png" alt="" height="20px" width="20px">
+              
+            </div>
+            <h5 class="p-name">Shoes</h5>
+            <h4 class="p-price">$100.00</h4>
+            <button class="buy-btn">Buy Now</button>
+  
+          </div>
+          <div class="product text-center col-lg-3 col-md-5 col-12">
+            <img class="img-fluid mb-3" src="watches3.png" alt="" width="98%" >
+            <div class="star">
+              <img src="stars2.png" alt="" height="20px" width="20px">
+              <img src="stars2.png" alt="" height="20px" width="20px">
+              <img src="stars2.png" alt="" height="20px" width="20px">
+              <img src="stars2.png" alt="" height="20px" width="20px">
+              <img src="stars2.png" alt="" height="20px" width="20px">
+             <!-- <i class="bi bi-star"></i> -->
+              
+            </div>
+            <h5 class="p-name">Watches</h5>
+            <h4 class="p-price">$90.00</h4>
+            <button class="buy-btn">Buy Now</button>
+  
+          </div>
+          <div class="product text-center col-lg-3 col-md-4 col-10">
+            <img class="img-fluid mb-3" src="shoes.png" alt="" width="100%" >
+            <div class="star">
+              <img src="stars2.png" alt="" height="20px" width="20px">
+              <img src="stars2.png" alt="" height="20px" width="20px">
+              <img src="stars2.png" alt="" height="20px" width="20px">
+              <img src="stars2.png" alt="" height="20px" width="20px">
+              <img src="stars2.png" alt="" height="20px" width="20px">
+              
+            </div>
+            <h5 class="p-name">Professional Shoes</h5>
+            <h4 class="p-price">$150.00</h4>
+            <button class="buy-btn">Buy Now</button>
+  
+          </div>
+          <div class="product text-center col-lg-3 col-md-3 col-10">
+            <img class="img-fluid mb-3" src="shirts1.png" alt=""  width="75%">
+            <div class="star">
+              <img src="stars2.png" alt="" height="20px" width="20px">
+              <img src="stars2.png" alt="" height="20px" width="20px">
+              <img src="stars2.png" alt="" height="20px" width="20px">
+              <img src="stars2.png" alt="" height="20px" width="20px">
+              <img src="stars2.png" alt="" height="20px" width="20px">
+              
+            </div>
+            <h5 class="p-name">T-Shirts</h5>
+            <h4 class="p-price">$80.00</h4>
+            <button class="buy-btn">Buy Now</button>
+  
+          </div>
+          <div class="product text-center col-lg-3 col-md-4 col-10">
+            <img class="img-fluid mb-3" src="caps3.png" alt="" width="100%" >
+            <div class="star">
+              <img src="stars2.png" alt="" height="20px" width="20px">
+              <img src="stars2.png" alt="" height="20px" width="20px">
+              <img src="stars2.png" alt="" height="20px" width="20px">
+              <img src="stars2.png" alt="" height="20px" width="20px">
+              <img src="stars2.png" alt="" height="20px" width="20px">
+              
+            </div>
+            <h5 class="p-name">Headwear</h5>
+            <h4 class="p-price">$40.00</h4>
+            <button class="buy-btn">Buy Now</button>
+  
+          </div>
+          <nav aria-label="...">
+            <ul class="pagination mt-3">
+              <li class="page-item disabled">
+                <a class="page-link" href="#" tabindex="-1">Previous</a>
+              </li>
+              <li class="page-item active"><a class="page-link" href="#">1</a></li>
+              <li class="page-item ">
+                <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#">Next</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </section>
+      
+      <footer class="mt-5  py-5" id="footer">
+        <div class="row container mx-auto pt-5">
+          <div class="footer-one col-lg-3 col-md-11 col-12">
+            <img src="logo1.png" alt="" height="50px" width="50px" >
+            <p class="pt-3">
+  
+              This website offers information about the most popular brands and their products. Additionally, it provides details about the prices of these products.</p>
+          </div>
+          <div class="footer-one col-lg-3 col-md-6 col-12 mb-3">
+            <h5 class="pb-2">Featured</h5>
+            <ul class="text-uppercase list-unstyled">
+              <li><a href="#">menu</a></li>
+              <li><a href="#">women</a></li>
+              <li><a href="#">men</a></li>
+              <li><a href="#">boys</a></li>
+              <li><a href="#">girls</a></li>
+              <li><a href="#">new arrivals</a></li>
+              <li><a href="#">shoes</a></li>
+              <li><a href="#">clothes</a></li>
+  
+            </ul>
+          </div>
+
+          <div class="footer-one col-lg-3 col-md-6 col-12 mb-3">
+            <h5 class="pb-2">Contact Us</h5>
+            <div>
+              <h5 class="text-uppercase">Address</h6>
+              <p>
+                123 GandhiNagar,Hyderbad,India 
+              </p>
+            </div>
+            <div>
+              <h5 class="text-uppercase">Phone</h6>
+              <p>
+                <a class="a" href="phoneto:7075186108">7075186108</a>
+              </p>
+            
+            </div>
+            <div>
+              <h5 class="text-uppercase">Email</h6>
+              <p>
+                <a class="a" href="mailto:aneesshaik016@gmail.com">aneesshaik016@gmail.com</a>
+              </p>
+            
+            </div>
+          </div>
+          <div class="footer-one col-lg-3 col-md-6 col-12">
+            <h5 class="pb-3">Instagram</h5>
+            <div class="row">
+              <img class="img-fluid w-25 h-100 m-8" src="instacap1.png" alt="">
+              <img class="img-fluid w-25 h-100 m-8" src="instashoes1.png" alt="">
+              <img class="img-fluid w-25 h-100 m-8" src="instashirt.png" alt="">
+              <img class="img-fluid w-25 h-100 m-8" src="instapurse2.png" alt="">
+              <a href="https://www.instagram.com/_anees_7777/">https://www.instagram.com/_anees_7777/</a>
+            </div>
+  
+             
+          </div>
+        </div>
+        <div class="copyright mt-5 mb-4">
+          <div class="row container mx-auto">
+            <div class="col-lg-4 cpl-md-6 col-12 ">
+              <img src="pay.png" alt="" width="100%"></a>
+            </div>
+            <div class="col-lg-5 cpl-md-6 col-10 text-nowrap mb-2">
+              
+              <p> All Legal Rights, Permission are Reserved Indefinitely</p>
+            </div>
+            <div class="col-lg-3 cpl-md-6 col-12">
+              <a href="https://m.facebook.com/"><img src="facebook.png" alt="" width="96%"> </a>
+              <a href="https://telegram.org/"><img src="tele.png" alt="" width="90%"> </a>
+              <a href="https://www.whatsapp.com/"><img src="whatsapp1.png" alt="" width="90%"> </a>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    
+    </body>
+    </html>
